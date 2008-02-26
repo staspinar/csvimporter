@@ -8,5 +8,7 @@ c = db.cursor()
 # execute your sql on cursor object
 c.execute('SELECT wellname FROM wells')
 # iterate through your resultset and print to stdout
+#   this method uses fetchmany(),  because fetchall()
+#   would print out thousands of records
 for each in c.fetchmany(3):
     print each
