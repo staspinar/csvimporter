@@ -1,0 +1,1 @@
+This repository contains a PDF of the presentation titled "Python and GIS: Beyond Modelbuilder and Pythonwin", presented at the ESRI 2008 PUG in Houston, Texas on February 26, 2008. All source code is also included.
